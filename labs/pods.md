@@ -33,3 +33,5 @@ kubectl run <new_name> --image=<new_image> --dry-run=client -o yaml > <new_name>
 kubectl create -f <new_name>-definition.yaml
 kubectl get pods
 ```
+
+# Done up till question 11, did not understand it 
