@@ -1,5 +1,8 @@
 # Replica Sets labs
 
+## Skipped 
+    Question 14
+
 1. How many ReplicaSets exist on the system?
 ```bash
 kubectl get rs 
@@ -28,3 +31,28 @@ replica-set-nj6bc   0/1     ImagePullBackOff   0          6m40s
 
 5. There are still 4 pods, after I have deleted one... why?
 > replica sets always ensures that pods run 
+
+6. Delete a replica set by name 
+```bash
+kuebctl delete replicaset <replica-set-name>
+kubectl delete -f <file-name>.yml
+```
+
+7. Edit the replica set to the correct values
+
+```bash
+kubectl edit replicaset <replica-set-name>
+```
+
+8. Delete replica set 
+```bash
+kuebctl delete replicaset <replicaset-name>
+```
+
+9. change the number of pods on a replicaset 
+```bash
+kubectl edit replicaset 
+kubectl scale 
+```
+
+kubectl scale rs new-replica-set --replicas=2

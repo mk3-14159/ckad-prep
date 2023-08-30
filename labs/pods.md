@@ -1,5 +1,10 @@
 # Pods lab 
 
+### TODO
+    1. Learn the correct definition for the yaml file syntax 
+        - eg which values should be the same different / what all the fields do 
+
+
 1. Check number of pods 
 ```bash
 kubectl get pods 
@@ -34,4 +39,8 @@ kubectl create -f <new_name>-definition.yaml
 kubectl get pods
 ```
 
-# Done up till question 11, did not understand it 
+
+
+
+
+
