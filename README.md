@@ -31,5 +31,6 @@ A Quick Reference box will contain helpful links for each exam exercise as well.
 Absolutely! Feel free to PR and edit/add questions and solutions, but please stick to the existing format.
 
 If this repo has helped you in any way, feel free to post on [discussions](https://github.com/dgkanatsios/CKAD-exercises/discussions) or buy me a coffee!
+dsf
 
 <a href="https://www.buymeacoffee.com/dgkanatsios" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
